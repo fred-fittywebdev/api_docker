@@ -1,0 +1,40 @@
+{
+	"name": "api_mysql_docker",
+	"version": "1.0.0",
+	"description": "Nodejs API with Express and Mysql and Docker",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"start:dev": "NODE_ENV=dev nodemon src/index.js",
+		"start:prod": "NODE_ENV=prod node src/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/fred-fittywebdev/api_docker.git"
+	},
+	"keywords": [
+		"NodeJS",
+		"Epress",
+		"Mysql",
+		"API",
+		"Docker"
+	],
+	"author": "Fred",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/fred-fittywebdev/api_docker/issues"
+	},
+	"homepage": "https://github.com/fred-fittywebdev/api_docker#readme",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.0",
+		"express": "^4.17.2",
+		"ip": "^1.1.5",
+		"mysql": "^2.18.1",
+		"pino": "^7.6.5",
+		"pino-pretty": "^7.5.1"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.15"
+	}
+}
